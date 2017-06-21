@@ -1,0 +1,15 @@
+<component type="addon">
+  <id>org.cockpit-project.demo-app</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Demo Application</name>
+  <icon type="local" height="64" width="64">/usr/share/metainfo/org.cockpit-project.demo-app.64x64.png</icon>
+  <summary>
+    A demo add-on application for Cockpit
+  </summary>
+  <description>
+    <p>This application does nothing, but it has an icon and it can be
+    installed and removed. What more can you want?</p>
+  </description>
+  <extends>cockpit.desktop</extends>
+  <launchable type="cockpit-package">demo-app</launchable>
+</component>
