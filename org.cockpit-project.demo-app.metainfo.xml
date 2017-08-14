@@ -12,4 +12,12 @@
   </description>
   <extends>cockpit.desktop</extends>
   <launchable type="cockpit-package">demo-app</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://raw.githubusercontent.com/mvollmer/demo-app/master/demo-app-screenshot-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://raw.githubusercontent.com/mvollmer/demo-app/master/demo-app-screenshot-2.png</image>
+    </screenshot>
+  </screenshots>
 </component>
