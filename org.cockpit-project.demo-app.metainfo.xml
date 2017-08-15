@@ -2,13 +2,19 @@
   <id>org.cockpit-project.demo-app</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>Demo Application</name>
+  <name xml:lang="de">Demo Anwendung</name>
   <icon type="local" height="64" width="64">/usr/share/metainfo/org.cockpit-project.demo-app.64x64.png</icon>
   <summary>
     A demo add-on application for Cockpit
   </summary>
+  <summary xml:lang="de">
+    Eine Demo Anwendung für Cockpit
+  </summary>
   <description>
     <p>This application does nothing, but it has an icon and it can be
     installed and removed. What more can you want?</p>
+    <p xml:lang="de">Diese Äpp tut nichts, aber sie hat ein
+    Bildchen. Gut genug, oder?</p>
   </description>
   <extends>cockpit.desktop</extends>
   <launchable type="cockpit-package">demo-app</launchable>
