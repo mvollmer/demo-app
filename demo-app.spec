@@ -1,5 +1,5 @@
 Name: demo-app
-Version: 5
+Version: 6
 Release: 0
 Summary: Cockpit Demo Application
 License: LGPLv2.1+
