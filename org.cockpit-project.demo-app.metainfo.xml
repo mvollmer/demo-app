@@ -16,15 +16,7 @@
     <p xml:lang="de">Diese Äpp tut nichts, aber sie hat ein
     Bildchen. Gut genug, oder?</p>
   </description>
-  <!--
-      Normally, we would declare what this add-on is for.  But this
-      doesn't work in a COPR since appstream-builder insists that it
-      can find "cockpit.desktop" before allowing add-ons for it, but
-      it only looks at the content of the COPR, which doesn't have
-      cockpit in it.
-
-      <extends>cockpit.desktop</extends>
-  -->
+  <extends>cockpit.desktop</extends>
   <launchable type="cockpit-manifest">demo-app</launchable>
   <screenshots>
     <screenshot type="default">
